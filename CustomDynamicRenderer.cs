@@ -56,7 +56,7 @@ namespace AnIBmator
                     // Set the thickness of the stroke based 
                     // on how hard the user pressed.
                     double radius = stylusPoints[i].PressureFactor * 10d;
-                    drawingContext.DrawEllipse(brush, pen, pt, radius, radius);
+                    drawingContext.DrawImage(new BitmapImage(new Uri("pack://application:,,,/Resources/Brush1.bmp")),new Rect(new Point(pt.X-25,pt.Y-25), new Point(pt.X + 25, pt.Y + 25)));
                     prevPoint = pt;
                 }
             }
