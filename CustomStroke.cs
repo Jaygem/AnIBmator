@@ -4,6 +4,8 @@ using System.Windows;
 using System.Windows.Input.StylusPlugIns;
 using System.Windows.Input;
 using System.Windows.Ink;
+using System.Windows.Media.Imaging;
+using System.IO;
 
 namespace AnIBmator
 {

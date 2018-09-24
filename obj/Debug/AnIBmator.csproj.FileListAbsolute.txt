@@ -1,0 +1,17 @@
+C:\Users\youness\documents\visual studio 2017\Projects\AnIBmator\AnIBmator\bin\Debug\AnIBmator.exe.config
+C:\Users\youness\documents\visual studio 2017\Projects\AnIBmator\AnIBmator\bin\Debug\AnIBmator.exe
+C:\Users\youness\documents\visual studio 2017\Projects\AnIBmator\AnIBmator\bin\Debug\AnIBmator.pdb
+C:\Users\youness\documents\visual studio 2017\Projects\AnIBmator\AnIBmator\obj\Debug\MainWindow.g.cs
+C:\Users\youness\documents\visual studio 2017\Projects\AnIBmator\AnIBmator\obj\Debug\App.g.cs
+C:\Users\youness\documents\visual studio 2017\Projects\AnIBmator\AnIBmator\obj\Debug\AnIBmator_MarkupCompile.cache
+C:\Users\youness\documents\visual studio 2017\Projects\AnIBmator\AnIBmator\obj\Debug\AnIBmator_MarkupCompile.lref
+C:\Users\youness\documents\visual studio 2017\Projects\AnIBmator\AnIBmator\obj\Debug\MainWindow.baml
+C:\Users\youness\documents\visual studio 2017\Projects\AnIBmator\AnIBmator\obj\Debug\AnIBmator.g.resources
+C:\Users\youness\documents\visual studio 2017\Projects\AnIBmator\AnIBmator\obj\Debug\AnIBmator.Properties.Resources.resources
+C:\Users\youness\documents\visual studio 2017\Projects\AnIBmator\AnIBmator\obj\Debug\AnIBmator.csproj.GenerateResource.cache
+C:\Users\youness\documents\visual studio 2017\Projects\AnIBmator\AnIBmator\obj\Debug\AnIBmator.csproj.CoreCompileInputs.cache
+C:\Users\youness\documents\visual studio 2017\Projects\AnIBmator\AnIBmator\obj\Debug\AnIBmator.exe
+C:\Users\youness\documents\visual studio 2017\Projects\AnIBmator\AnIBmator\obj\Debug\AnIBmator.pdb
+C:\Users\youness\documents\visual studio 2017\Projects\AnIBmator\AnIBmator\obj\Debug\AnIBmator.csprojAssemblyReference.cache
+C:\Users\youness\documents\visual studio 2017\Projects\AnIBmator\AnIBmator\obj\Debug\StrokeControls.g.cs
+C:\Users\youness\documents\visual studio 2017\Projects\AnIBmator\AnIBmator\obj\Debug\StrokeControls.baml
