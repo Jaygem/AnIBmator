@@ -4,7 +4,6 @@ using System.Windows;
 using System.Windows.Input.StylusPlugIns;
 using System.Windows.Input;
 using System.Windows.Ink;
-using System.Windows.Media.Imaging;
 
 namespace AnIBmator
 {
@@ -33,8 +32,7 @@ namespace AnIBmator
             // Create a new Brush, if necessary.
             if (brush == null)
             {
-                brush = new ImageBrush(new BitmapImage(new Uri(@"/(Texture1.bmp", UriKind.Relative)));
-                //brush = new LinearGradientBrush(Colors.Red, Colors.Blue, 20d);
+                brush = new LinearGradientBrush(Colors.Red, Colors.Blue, 20d);
             }
 
             // Create a new Pen, if necessary.
@@ -48,20 +46,19 @@ namespace AnIBmator
             for (int i = 0; i < stylusPoints.Count; i++)
             {
                 Point pt = (Point)stylusPoints[i];
-                //Vector v = Point.Subtract(prevPoint, pt);
+                Vector v = Point.Subtract(prevPoint, pt);
 
                 // Only draw if we are at least 4 units away 
                 // from the end of the last ellipse. Otherwise, 
                 // we're just redrawing and wasting cycles.
-                /*
-                if (v.Length > 2)
+                if (v.Length > 4)
                 {
                     // Set the thickness of the stroke based 
                     // on how hard the user pressed.
                     double radius = stylusPoints[i].PressureFactor * 10d;
-                    drawingContext.DrawImage(new BitmapImage(new Uri(@"C:\Users\youness\Documents\Visual Studio 2017\Projects\AnIBmator\AnIBmator\Texture1.bmp")), new Rect(new Point(v.X-25,v.Y-25), new Point(v.X + 25, v.Y + 25)));//DrawEllipse(brush, pen, pt, radius, radius);
+                    drawingContext.DrawImage(new BitmapImage(new Uri("pack://application:,,,/Resources/Brush1.bmp")),new Rect(new Point(pt.X-25,pt.Y-25), new Point(pt.X + 25, pt.Y + 25)));
                     prevPoint = pt;
-                }*/
+                }
             }
         }
     }
